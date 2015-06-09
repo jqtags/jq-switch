@@ -1,6 +1,6 @@
-utils.define('jqtags.switch').extend('jqtag').as(function(test,_test_, _attr_){
+_tag_('jqtags.switch',function(test,_test_, _attr_){
 	
-	test.register({
+	return {
 	    tagName: "jq-switch",
 	    events: {
 	        "change .switch-input":"toggleValue"
@@ -34,6 +34,6 @@ utils.define('jqtags.switch').extend('jqtag').as(function(test,_test_, _attr_){
 	    toggleValue : function(){
 	    	this.$.value = !this.$.value;
 	    }
-	});
+	};
 	
 });
