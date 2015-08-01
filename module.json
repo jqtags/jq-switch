@@ -1,0 +1,7 @@
+{
+	"name": "jqtags/jq-switch",
+	"jqtags/jq-switch": {
+		"js": ["jqtags.switch.js"],
+		"on": ["webmodules/jqtag"]
+	}
+}
